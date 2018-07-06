@@ -1,0 +1,22 @@
+{
+	"name": "crazyfactory/php-translations",
+	"type": "package",
+	"autoload": {
+		"psr-4": {
+			"Lalita\\TestPackages\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Lalita\\TestPackages\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+	},
+	"require-dev": {
+		"codeception/codeception": "^2.4",
+		"codeception/specify": "^0.4.6",
+		"codeception/verify": "^1.0",
+		"codeception/stub": "^2.0"
+	}
+}
